@@ -5,7 +5,6 @@ import { Header } from '../components/Header/header';
 import { Intro } from '../components/Intro/intro';
 import { Pose } from '../components/Pose/pose';
 
-
 document.querySelector('#root').innerHTML = render(
   <>
     <Header title="Jogini" />
@@ -14,6 +13,7 @@ document.querySelector('#root').innerHTML = render(
          Postupně se seznámíte se základními principy jógy, jak přístupovat k
          sobě i ostatním. Krok za krokem objevíte a dostanete pod kontrolu
          svoje tělo, pocity a emoce." />
-    <Pose src='img/yoga-pose.jpg' />
+    <Pose src='./yoga-pose.jpg' />
+
   </>
 );

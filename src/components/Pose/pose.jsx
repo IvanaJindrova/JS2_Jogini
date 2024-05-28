@@ -1,7 +1,7 @@
 export const Pose = (props) => {
     return (
         <>
-            <img>{props.src}</img>
+            <img src='./yoga-pose.jpg' alt='joginska_pozice' />
         </> 
     )
 }
